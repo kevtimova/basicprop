@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'basicprop',
   packages = ['basicprop'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.2',
   description = 'A synthetic dataset used for generative models',
   author = 'Andrew Drozdov',
   author_email = 'andrew@mrdrozdov.com',

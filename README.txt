@@ -21,7 +21,7 @@ line = Line()
 rects = Rects()
 
 line_images = [line.get_image(y) for y in range(10)]
-rects_images = [line.get_image(y) for y in range(100)]
+rects_images = [rects.get_image(y) for y in range(100)]
 ```
 
 ## License
